@@ -25,11 +25,22 @@ The following fields are **not used** by the Klaviyo connector:
 If you would like the Klaviyo connector but your system does not meet these minimum requirements, please consult your Care Team Lead (vCIO) for an upgrade quote.
 
 ---
-
 ## Table of Contents
 
 - [Minimum System Requirements](#minimum-system-requirements)
-- 
+- [SECTION 1: Klaviyo Customer Records](#section-1-klaviyo-customer-records)
+- [SECTION 2: Klaviyo Field Mapping – Customers Up](#section-2-klaviyo-field-mapping--customers-up)
+- [SECTION 3: Klaviyo Field Mapping – Customers Down](#section-3-klaviyo-field-mapping--customers-down)
+- [SECTION 4: Klaviyo Custom Properties – Documents Up](#section-4-klaviyo-custom-properties--documents-up)
+- [SECTION 5: Queued to Be Sent to Klaviyo](#section-5-queued-to-be-sent-to-klaviyo)
+- [SECTION 6: Klaviyo Custom Events](#section-6-klaviyo-custom-events)
+- [SECTION 7: Klaviyo Connector Sync Process](#section-7-klaviyo-connector-sync-process)
+- [SECTION 8: Customer Profile Syncing Workflow](#section-8-customer-profile-syncing-workflow)
+- [SECTION 9: Managing Customer Email and Phone Updates](#section-9-managing-customer-email-and-phone-updates)
+- [SECTION 10: Duplicate and Merged Customers](#section-10-duplicate-and-merged-customers)
+- [SECTION 11: Klaviyo Configuration](#section-11-klaviyo-configuration)
+- [SECTION 12: Additional Connector Operations and Controls](#section-12-additional-connector-operations-and-controls)
+- [Conclusion](#conclusion)
 
 ---
 
