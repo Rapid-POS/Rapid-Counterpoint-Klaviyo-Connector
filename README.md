@@ -129,9 +129,9 @@ The following customer fields are included in a standard Klaviyo connector deplo
 
 ## SECTION 3: Klaviyo Field Mapping – Customers Down
 
-The **Klaviyo Field Mapping – Customers Down** table provides a user interface for managing which customer fields are sent from Klaviyo down to Counterpoint.
+The **Klaviyo Field Mapping – Customers Down** table provides a user interface for managing which customer fields are imported from Klaviyo down into Counterpoint.
 
-For clients using web-based sign-up forms or other Klaviyo integrations, this functionality allows customer data entered in Klaviyo to sync back into Counterpoint. This may include:
+For clients using web-based sign-up forms or other Klaviyo integrations, this functionality allows customer data entered in Klaviyo to be imported into Counterpoint. This may include:
 - Updating (overwriting) existing customer fields in Counterpoint
 - Inserting new Counterpoint customer records when no matching record exists
 
