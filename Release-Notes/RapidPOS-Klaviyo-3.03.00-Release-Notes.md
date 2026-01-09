@@ -9,7 +9,7 @@ _Release Date: January 13, 2026_
 ### Updated Functionality for Run Klaviyo Connector (Manually) via Menu Button
 
 - Updated the **Run Klaviyo Connector** menu button to use an internal, stored procedure–driven execution model instead of invoking an external executable.
-  - This will allow users to run the connector manually from any station with the menu button, whereas previously this running the connector manually only worked reliably from the server.
+  - This will allow users with access to the menu button to run the connector manually from any station, whereas previously running the connector manually only worked reliably from the server.
 
 - Introduced a **Manual Run Connector** action flag within the Klaviyo configuration.
   - This flag is stored in the configuration table and is set by clicking the **Run Klaviyo Connector** menu button.
