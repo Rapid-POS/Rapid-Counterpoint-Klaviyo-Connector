@@ -1,7 +1,6 @@
-# Rapid POS Klaviyo Connector – Release Notes 
+# Rapid POS Klaviyo Connector v2.00.02 Release Notes 
  
-## Version 2.00.02  
-**Release Date:** July 9, 2024  
+_Release Date: July 9, 2024_  
  
 ---
  
