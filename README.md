@@ -1,5 +1,5 @@
-# Rapid POS Klaviyo Connector - Version 3.2
-Updated 12/15/2025
+# Rapid POS Klaviyo Connector - Version 3.3
+Updated 1/8/2026
 
 ---
 
@@ -7,7 +7,7 @@ Updated 12/15/2025
 
 The Rapid Klaviyo Connector automatically syncs customer and sales data from Counterpoint to Klaviyo to support targeted email and SMS marketing, customer segmentation, and automated flows. The connector syncs customer profiles and transaction information for customers with a populated **Email Address 1** in Counterpoint.
 
-If configured, **Mobile Phone 1** is also included to support Klaviyo SMS marketing.
+If configured, **Phone 1** or **Mobile Phone 1** can be included to support Klaviyo SMS marketing.
 
 The following fields are **not used** by the Klaviyo connector:
 - Email Address 2  
@@ -48,13 +48,17 @@ If you would like the Klaviyo connector but your system does not meet these mini
 
 The Klaviyo Connector adds a **Klaviyo Customers** button within Counterpoint, providing access to Klaviyo-specific customer fields directly from the Counterpoint customer record.
 
+![Customer Record - Klaviyo Customers Button](./images/counterpoint-customer-record-klaviyo-customers-button.png)
+
 The email address on the Klaviyo customer record is populated from **Email Address 1** on the Counterpoint customer record.
 
-The SMS phone number is populated from **Mobile Phone 1** on the Counterpoint customer record, **only when it meets the following criteria**:
+Depending on configuration, the SMS phone number is populated from either **Phone 1** or **Mobile Phone 1** on the Counterpoint customer record, **only when it meets the following criteria**:
 - Contains **exactly 10 numeric digits**
 - Does **not** include letters 
 
-If the Mobile Phone 1 field contains more or fewer than 10 digits, or includes letters, the SMS number will **not** be pushed to Klaviyo.
+If the configured phone number field contains more than or fewer than 10 digits, or if it includes letters, the SMS number will **not** be pushed to Klaviyo.
+
+![Klaviyo Customer Record](./images/counterpoint-klaviyo-customer-record.png)
 
 ### Accessing Klaviyo Customer Records
 
@@ -63,6 +67,8 @@ All Klaviyo customer records can also be accessed from:
 **Connectors > Klaviyo > Klaviyo Customer Records**
 
 This view allows records to be displayed in **table view**, where filters can be applied to review customers based on their current sync status.
+
+![Klaviyo Customers in Table View](./images/counterpoint-klaviyo-customers-table-view.png)
 
 ### Klaviyo Sync Status Codes
 
