@@ -9,18 +9,18 @@ _Release Date: January 13, 2026_
 ### Updated Functionality for Run Klaviyo Connector (Manually) via Menu Button
 
 - Updated the **Run Klaviyo Connector** menu button to use an internal, stored procedure–driven execution model instead of invoking an external executable.
-  - This will allow users with access to the menu button to run the connector manually from any station, whereas previously running the connector manually only worked reliably from the server.
+  - This allows users who have access to the menu button to manually run the connector from any station. Previously, manually running the connector was only reliable when initiated directly from the server.
 
 - Introduced a **Manual Run Connector** action flag within the Klaviyo configuration.
-  - This flag is stored in the configuration table and is set by clicking the **Run Klaviyo Connector** menu button.
-  - The flag functions as an action control and remains enabled until the connector processes it.
+  - The flag is stored in the configuration table and is set when the **Run Klaviyo Connector** menu button is clicked.
+  - This flag functions as a one-time action control and remains enabled until it is processed by the connector.
 
 - Added background processing logic to execute the connector based on the action flag.
-  - A scheduled process (using a CRON-based schedule stored in the configuration table) checks for the **Manual Run Connector** flag at regular intervals.
+  - A scheduled process, driven by a CRON-based schedule stored in the configuration table, checks for the **Manual Run Connector** flag at regular intervals.
   - The **Manual Run Connector Execution Time** CRON schedule is configurable from the Klaviyo Configuration screen.
-  - If the Klaviyo connector is **not currently running**, the connector will run for all configured accounts based on the CRON schedule (typically within one minute), and the action flag will be automatically cleared when execution begins.
-  - If the connector **is already running**, the system waits for the current run to complete, then restarts the connector within one minute for all accounts and clears the action flag.
-  - This ensures connector executions do not overlap while still allowing users to safely trigger a run.
+  - If the Klaviyo connector is **not currently running**, it will execute for all configured accounts based on the CRON schedule (typically within one minute), and the action flag will be automatically cleared when execution begins.
+  - If the connector **is already running**, the system waits for the current execution to complete, then restarts the connector (typically within one minute) for all configured accounts and clears the action flag.
+  - This ensures connector executions do not overlap while still allowing users to safely trigger a manual run.
 
 ### Configurable Phone Number Mapping for Klaviyo SMS
 
