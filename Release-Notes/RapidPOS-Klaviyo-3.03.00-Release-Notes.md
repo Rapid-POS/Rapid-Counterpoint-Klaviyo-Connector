@@ -6,11 +6,10 @@ _Release Date: January 13, 2026_
  
 ## New Functionality
 
-### Run Klaviyo Connector via Internal Stored Procedure
+### Updated Functionality for Run Klaviyo Connector (Manually) via Menu Button
 
 - Updated the **Run Klaviyo Connector** menu button to use an internal, stored procedure–driven execution model instead of invoking an external executable.
-
-### Manual Run Connector Action Flag and Execution Control
+  - This will allow users to run the connector manually from any station with the menu button, whereas previously this running the connector manually only worked reliably from the server.
 
 - Introduced a **Manual Run Connector** action flag within the Klaviyo configuration.
   - This flag is stored in the configuration table and is set by clicking the **Run Klaviyo Connector** menu button.
@@ -21,7 +20,7 @@ _Release Date: January 13, 2026_
   - The **Manual Run Connector Execution Time** CRON schedule is configurable from the Klaviyo Configuration screen.
   - If the Klaviyo connector is **not currently running**, the connector will run for all configured accounts based on the CRON schedule (typically within one minute), and the action flag will be automatically cleared when execution begins.
   - If the connector **is already running**, the system waits for the current run to complete, then restarts the connector within one minute for all accounts and clears the action flag.
-  - This ensures connector executions do not overlap while still allowing users to safely trigger an immediate run.
+  - This ensures connector executions do not overlap while still allowing users to safely trigger a run.
 
 ### Configurable Phone Number Mapping for Klaviyo SMS
 
@@ -30,19 +29,19 @@ _Release Date: January 13, 2026_
   - For clients using Klaviyo SMS messaging, this determines which Counterpoint phone field is mapped to the Klaviyo customer profile field **SMS Number – Mobile Phone**.
   - The selected phone value is synced to Klaviyo as the SMS number.
 
-### Klaviyo Profile Custom Properties – Manual Calculated Values
+### Klaviyo Profile Custom Properties – New Tool for Syncing Calculated Values
 
 - Added a new tool for defining **Klaviyo Profile Custom Properties** that can be calculated and synced to Klaviyo.
   - Values are calculated from ticket history data using:
-    - `PS_TKT_HIST` (ticket headers)
-    - `PS_TKT_HIST_LIN` (ticket lines)
-  - Common use cases include calculating total sales by customer over a specific date range and syncing that value to Klaviyo as a profile custom property.
+    - `PS_TKT_HIST` (ticket header data)
+    - `PS_TKT_HIST_LIN` (ticket line data)
+  - Example use cases include calculating total sales by customer over a specific date range and syncing that value to Klaviyo as a profile custom property.
 
 #### Guided Calculation Definition and Constraints
 
 - The tool includes a guided workflow with the following constraints:
   - **Property Name**
-    - Must be unique
+    - Must be unique (primary key)
     - Must not contain spaces
     - Becomes the permanent label for the profile property in Klaviyo and cannot be changed
   - **Data Sources**
@@ -56,7 +55,7 @@ _Release Date: January 13, 2026_
 
 #### Example Use Case
 
-A client wants to sync the sum of ticket subtotals for all historical tickets between January 1, 2025 and March 31, 2025 for customers with existing Klaviyo profiles.
+A client wants to sync the sum of ticket subtotals for all historical tickets between January 1, 2025 and March 31, 2025 (first quarter) for customers with existing Klaviyo profiles.
 
 - **Property Name**: `TicketSubtotalQ1of2025`
 - **Table Name**: `PS_TKT_HIST`
@@ -75,9 +74,9 @@ A client wants to sync the sum of ticket subtotals for all historical tickets be
     - Calculated output value for the custom property
 
 - When enabled:
-  - The view becomes available for selection within **Klaviyo Field Mapping – Customers Up**.
+  - The view becomes available within **Klaviyo Field Mapping – Customers Up**.
   - Customers in the result set have their Klaviyo Stat set to `1`, triggering a resync to Klaviyo with the additional property.
-  - If a customer does not have a calculated value, the property is not synced and will not appear on the Klaviyo profile.
+  - Note: If a customer does not have a calculated value, the property is not synced and will not appear on the Klaviyo profile.
 
 ---
 
