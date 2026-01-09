@@ -91,11 +91,13 @@ Please contact Rapid for a quote if you are interested in a customized add-on-th
 
 ## SECTION 2: Klaviyo Field Mapping – Customers Up
 
-**Best viewed in Table View**
-
 The **Klaviyo Field Mapping – Customers Up** screen provides a user interface for managing which customer fields are sent from Counterpoint up to Klaviyo.
 
 This table defines how customer profile data in Counterpoint maps to Klaviyo profile properties. The standard deployment includes a predefined set of fields that are automatically synced. Adjustments to this table should generally be performed by a programmer.
+
+Note: This is best viewed in _table view_.
+
+![Klaviyo Field Mapping Customers Up in Table View](./images/counterpoint-klaviyo-field-mapping-customers-up.png)
 
 Calculated fields are not included by default. Any request to add calculated fields must be reviewed and quoted separately by Rapid.
 
