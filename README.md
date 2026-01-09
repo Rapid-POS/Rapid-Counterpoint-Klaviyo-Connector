@@ -97,7 +97,7 @@ This table defines how customer profile data in Counterpoint maps to Klaviyo pro
 
 Note: This is best viewed in _table view_.
 
-![Klaviyo Field Mapping Customers Up in Table View](./images/counterpoint-klaviyo-field-mapping-customers-up.png)
+![Klaviyo Field Mapping Customers Up in Table View](./images/counterpoint-klaviyo-field-mapping-customers-up-table-view.png)
 
 Calculated fields are not included by default. Any request to add calculated fields must be reviewed and quoted separately by Rapid.
 
@@ -108,21 +108,22 @@ Calculated fields are not included by default. Any request to add calculated fie
 The following customer fields are included in a standard Klaviyo connector deployment:
 
 1. Email Address 1  
-2. Mobile Phone 1  
-3. First Name  
-4. Last Name  
-5. Address 1  
-6. Address 2  
-7. City  
-8. State  
-9. Zip Code  
-10. Country  
-11. A/R Balance  
-12. Customer Category  
-13. First Sale Date  
-14. Last Sale Date  
-15. Loyalty Point Balance  
-16. Send Email Receipts (Yes/No)
+2. Mobile Phone 1
+3. Customer Number
+4. First Name  
+5. Last Name  
+6. Address 1  
+7. Address 2  
+8. City  
+9. State  
+10. Zip Code  
+11. Country  
+12. A/R Balance  
+13. Customer Category  
+14. First Sale Date  
+15. Last Sale Date  
+16. Loyalty Point Balance  
+17. Send Email Receipts (Yes/No)
 
 ---
 
