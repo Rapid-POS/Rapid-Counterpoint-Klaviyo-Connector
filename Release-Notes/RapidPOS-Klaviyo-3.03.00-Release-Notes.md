@@ -84,7 +84,7 @@ A client wants to sync the sum of ticket subtotals for all historical tickets be
  
 ### Improved Klaviyo API Connectivity Error Messaging 
  
-- Improved the error message displayed when the Klaviyo API cannot be reached, providing clearer guidance on potential causes (such as Klaviyo service outages or local internet connectivity issues) and next steps for contacting Rapid POS Support. 
+- Improved the error message displayed when the Klaviyo API cannot be reached. 
 - Instead of "_No such host is known. (a.klaviyo.com:443)_", users will now see "_This indicates either Klaviyo's API is down or not responding due to overwhelmed traffic - or - your store's internet is down or unable to reach the Klaviyo API. If this issue persists contact Rapid POS at support@rapidpos.com._" 
  
 ### Improved Handling of Duplicate Customer Email Addresses 
