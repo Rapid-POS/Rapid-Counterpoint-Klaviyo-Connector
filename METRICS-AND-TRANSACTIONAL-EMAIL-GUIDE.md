@@ -1,5 +1,5 @@
-# Rapid POS Klaviyo Connector  
-## Metrics and Transactional Email Guide
+# Metrics and Transactional Email Guide
+## Rapid POS Klaviyo Connector
 
 **Version:** 3.3  
 **Updated:** January 9, 2026  
@@ -34,7 +34,7 @@ This document does **not** provide instruction on marketing strategy or email de
   - [2.1 Disclaimer](#31-disclaimer)
   - [2.2 Marketing vs. Transactional Emails](#32-marketing-vs-transactional-emails)
   - [2.3 Transactional Email Requirements](#33-transactional-email-requirements)
-  - [2.4 Personalization Variables and Metric Properties](#34-personalization-variables-and-metric-properties)
+  - [2.4 Metric Properties and Personalization Variables](#34-metric-properties-and-personalization-variables)
   - [2.5 Hints for Transactional Email Receipts](#35-hints-for-transactional-email-receipts)
 - [3. Reference Links and Additional Notes](#4-reference-links-and-additional-notes)
 
@@ -212,7 +212,7 @@ Please consult a **Klaviyo-experienced marketing professional or agency**.
 ### 2.2 Marketing vs. Transactional Emails
 
 - **Transactional emails** include receipts, order confirmations, and delivery notifications  
-- **Marketing emails** include welcome messages, promotions, and lifecycle campaigns  
+- **Marketing emails** include welcome messages, promotions, and birthday/anniversary notifications  
 
 Klaviyo’s definition:  
 https://www.klaviyo.com/blog/transactional-email  
@@ -230,18 +230,18 @@ https://help.klaviyo.com/hc/en-us/articles/360003165732
 
 ---
 
-### 2.4 Personalization Variables and Metric Properties
+### 2.4 Metric Properties and Personalization Variables
 
 Metric properties and personalization variables can be inserted into Klaviyo email templates.
 
 Important notes:
 - Variables are **case sensitive**  
 - HTML knowledge is helpful when customizing templates  
-- Rapid assistance with metric clarification is billed at **time and materials**  
+- Assistance with metric clarification from Rapid is billed at T&M rates  
 
-If a required property is not available, consult Rapid for a quote to sync additional data.
+If a desired property is not available, consult Rapid for a quote to sync additional data.
 
-Reference:  
+Klavyio's Message Personalization Reference:  
 https://help.klaviyo.com/hc/en-us/articles/4408802648731  
 
 ---
@@ -251,17 +251,21 @@ https://help.klaviyo.com/hc/en-us/articles/4408802648731
 Klaviyo users are responsible for:
 - Creating receipt flows  
 - Designing email templates  
-- Applying for transactional approval  
+- Applying for transactional approval from Klaviyo  
 
 **Recommended approach**
 - Use the **Counterpoint Ticket Created** metric  
 - Optionally filter flows based on:
   - Customer email receipt preferences  
-  - Ticket-level receipt delivery indicators  
+  - Ticket-level receipt delivery indicators
+ 
+**Sample Email Receipt Template**
 
-Some properties may benefit from formatting filters (for example, decimal precision).
+![Klaviyo Sample Email Receipt Template](./images/klaviyo-sample-email-receipt-template.png)
 
-Filter reference:  
+**Note:** Some properties may benefit from formatting filters (for example, decimal precision).
+
+Klaviyo's Filter Reference:  
 https://developers.klaviyo.com/en/docs/use_filters_to_customize_variables  
 
 ---
