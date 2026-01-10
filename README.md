@@ -25,23 +25,24 @@ The following fields are **not used** by the Klaviyo connector:
 If you would like the Klaviyo connector but your system does not meet these minimum requirements, please consult your Care Team Lead (vCIO) for an upgrade quote.
 
 ---
+
 ## Table of Contents
 
 - [Minimum System Requirements](#minimum-system-requirements)
-- [SECTION 1: Klaviyo Customer Records](#section-1-klaviyo-customer-records)
-- [SECTION 2: Klaviyo Configuration](#section-2-klaviyo-configuration)
-- [SECTION 3: Klaviyo Field Mapping – Customers Up](#section-3-klaviyo-field-mapping--customers-up)
-- [SECTION 4: Klaviyo Field Mapping – Customers Down](#section-4-klaviyo-field-mapping--customers-down)
-- [SECTION 5: Klaviyo Custom Properties – Documents Up](#section-5-klaviyo-custom-properties--documents-up)
-- [SECTION 6: Klaviyo Custom Events](#section-6-klaviyo-custom-events)
-- [SECTION 7: Klaviyo Profile Custom Properties](#section-7-klaviyo-profile-custom-properties)
-- [SECTION 8: Queued to Be Sent to Klaviyo](#section-8-queued-to-be-sent-to-klaviyo)
-- [SECTION 9: Klaviyo Customer Status View](#section-9-klaviyo-customer-status-view)
-- [SECTION 10: Run Klaviyo Connector Button](#section-10-run-klaviyo-connector-button)
-- [SECTION 11: Mark All Klaviyo Messages as Read](#section-11-mark-all-klaviyo-messages-as-read)
-- [SECTION 12: Klaviyo Connector Sync Process](#section-12-klaviyo-connector-sync-process)
-- [SECTION 13: Customer Profile Syncing Workflow](#section-13-customer-profile-syncing-workflow)
-- [SECTION 14: Managing Customer Email and Phone Updates](#section-14-managing-customer-email-and-phone-updates)
+- [Section 1: Klaviyo Customer Records](#section-1-klaviyo-customer-records)
+- [Section 2: Klaviyo Configuration](#section-2-klaviyo-configuration)
+- [Section 3: Klaviyo Field Mapping – Customers Up](#section-3-klaviyo-field-mapping--customers-up)
+- [Section 4: Klaviyo Field Mapping – Customers Down](#section-4-klaviyo-field-mapping--customers-down)
+- [Section 5: Klaviyo Custom Properties – Documents Up](#section-5-klaviyo-custom-properties--documents-up)
+- [Section 6: Klaviyo Custom Events](#section-6-klaviyo-custom-events)
+- [Section 7: Klaviyo Profile Custom Properties](#section-7-klaviyo-profile-custom-properties)
+- [Section 8: Queued to Be Sent to Klaviyo](#section-8-queued-to-be-sent-to-klaviyo)
+- [Section 9: Klaviyo Customer Status View](#section-9-klaviyo-customer-status-view)
+- [Section 10: Run Klaviyo Connector Button](#section-10-run-klaviyo-connector-button)
+- [Section 11: Mark All Klaviyo Messages as Read](#section-11-mark-all-klaviyo-messages-as-read)
+- [Section 12: Klaviyo Connector Execution and Sync Timing](#section-12-klaviyo-connector-execution-and-sync-timing)
+- [Section 13: Customer Profile Sync Logic and Workflow](#section-13-customer-profile-sync-logic-and-workflow)
+- [Section 14: Managing Customer Email and Phone Updates](#section-14-managing-customer-email-and-phone-updates)
 - [Conclusion](#conclusion)
 
 ---
