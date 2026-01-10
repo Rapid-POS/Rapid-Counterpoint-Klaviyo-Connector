@@ -44,14 +44,15 @@ This document does **not** provide instruction on marketing strategy or email de
 
 Documents including **tickets**, **orders**, and **layaways** are automatically sent from Counterpoint to Klaviyo as **metrics**.
 
+While this data is always sent, none of it is required to be used unless desired.
+
 These metrics can be used to:
 - Trigger Klaviyo flows  
 - Build segments  
 - Generate insights  
 - Support transactional and marketing emails  
 
-All metrics appear in Klaviyo with the source labeled as **API**. While this data is always sent, none of it is required to be used unless desired.
-
+All metrics appear in Klaviyo with the source labeled as **API**. 
 ![Klaviyo Customer Profile Events Log with Sample Metrics](./images/klaviyo-customer-profile-events-log.png)
 
 ---
@@ -150,6 +151,7 @@ To work around Klaviyo’s filtering limitations, the connector can resend selec
 - Values are pulled from document lines  
 - Multiple values are combined when applicable  
 - Up to **eight** fields can be elevated using the **Klaviyo Custom Properties – Documents Up** configuration
+  - Reference the README file for more details on configuring Custom Properties for Documents Up: [Klaviyo Custom Properties – Documents Up](./README.md#section-5-klaviyo-custom-properties--documents-up)
 
 ![Klaviyo Detail Level Dimensions Elevated to Top Level Dimensions](./images/klaviyo-detail-level-dimensions-elevated-to-top-level-dimensions.png)
 
@@ -272,8 +274,8 @@ https://developers.klaviyo.com/en/docs/use_filters_to_customize_variables
 
 ## 3. Reference Links and Additional Notes
 
-This document intentionally focuses on **data behavior and usage**, not marketing strategy.
+This document intentionally focuses on **data behavior and usage**, not marketing strategy. 
 
-For connector setup, configuration, and operational behavior, refer to the main **Rapid POS Klaviyo Connector README**.
+This guide is intended to be used alongside the primary connector documentation. For connector setup, configuration, sync behavior, and operational controls, see the [Rapid POS Klaviyo Connector README](./README.md).
 
-For marketing guidance, consult Klaviyo documentation or a marketing professional with Klaviyo expertise.
+For marketing guidance, consult Klaviyo's documentation or a marketing professional with Klaviyo expertise.
