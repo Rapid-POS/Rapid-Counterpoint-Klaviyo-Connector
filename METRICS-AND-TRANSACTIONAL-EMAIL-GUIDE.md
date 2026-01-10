@@ -22,21 +22,21 @@ This document does **not** provide instruction on marketing strategy or email de
 
 ## Table of Contents
 
-- [1. Klaviyo Metrics from Counterpoint](#2-klaviyo-metrics-from-counterpoint)
-  - [1.1 Automatically Synced Metrics](#21-automatically-synced-metrics)
-  - [1.2 Accessing Metric Data in Klaviyo](#22-accessing-metric-data-in-klaviyo)
-  - [1.3 Metric Structure and Dimensions](#23-metric-structure-and-dimensions)
-  - [1.4 Dimension Levels and Filtering Rules](#24-dimension-levels-and-filtering-rules)
-  - [1.5 Elevating Detail Fields to Top-Level Dimensions](#25-elevating-detail-fields-to-top-level-dimensions)
-  - [1.6 Standard Metric Properties](#26-standard-metric-properties)
-  - [1.7 Setting Up Trigger Filters](#27-setting-up-trigger-filters)
-- [2. Sending Emails Using Klaviyo](#3-sending-emails-using-klaviyo)
-  - [2.1 Disclaimer](#31-disclaimer)
-  - [2.2 Marketing vs. Transactional Emails](#32-marketing-vs-transactional-emails)
-  - [2.3 Transactional Email Requirements](#33-transactional-email-requirements)
-  - [2.4 Metric Properties and Personalization Variables](#34-metric-properties-and-personalization-variables)
-  - [2.5 Hints for Transactional Email Receipts](#35-hints-for-transactional-email-receipts)
-- [3. Reference Links and Additional Notes](#4-reference-links-and-additional-notes)
+- [1. Klaviyo Metrics from Counterpoint](#1-klaviyo-metrics-from-counterpoint)
+  - [1.1 Automatically Synced Metrics](#11-automatically-synced-metrics)
+  - [1.2 Accessing Metric Data in Klaviyo](#12-accessing-metric-data-in-klaviyo)
+  - [1.3 Metric Structure and Dimensions](#13-metric-structure-and-dimensions)
+  - [1.4 Dimension Levels and Filtering Rules](#14-dimension-levels-and-filtering-rules)
+  - [1.5 Elevating Detail Fields to Top-Level Dimensions](#15-elevating-detail-fields-to-top-level-dimensions)
+  - [1.6 Standard Metric Properties](#16-standard-metric-properties)
+  - [1.7 Setting Up Trigger Filters](#17-setting-up-trigger-filters)
+- [2. Sending Emails Using Klaviyo](#2-sending-emails-using-klaviyo)
+  - [2.1 Disclaimer](#21-disclaimer)
+  - [2.2 Marketing vs. Transactional Emails](#22-marketing-vs-transactional-emails)
+  - [2.3 Transactional Email Requirements](#23-transactional-email-requirements)
+  - [2.4 Metric Properties and Personalization Variables](#24-metric-properties-and-personalization-variables)
+  - [2.5 Hints for Transactional Email Receipts](#25-hints-for-transactional-email-receipts)
+- [3. Reference Links and Additional Notes](#3-reference-links-and-additional-notes)
 
 ---
 
