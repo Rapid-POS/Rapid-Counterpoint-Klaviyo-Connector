@@ -52,7 +52,8 @@ These metrics can be used to:
 - Generate insights  
 - Support transactional and marketing emails  
 
-All metrics appear in Klaviyo with the source labeled as **API**. 
+All metrics appear in Klaviyo with the source labeled as **API**.  
+
 ![Klaviyo Customer Profile Events Log with Sample Metrics](./images/klaviyo-customer-profile-events-log.png)
 
 ---
