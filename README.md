@@ -345,7 +345,7 @@ Due to Klaviyo API rate limits, **up to eight** custom properties can be selecte
 
 ![Klaviyo Custom Properties Documents Up](./images/counterpoint-klaviyo-custom-properties-documents-up.png)
 
-For more information on how documents are represented in Klaviyo, including the relationship between **metrics** and **dimensions**, refer to **[TBD - INSERT SECTION HERE]**.
+For more information on how documents are represented in Klaviyo, including the relationship between **metrics** and **dimensions**, refer to [Metrics and Transactional Email Guide](./METRICS-AND-TRANSACTIONAL-EMAIL-GUIDE.md).
 
 ---
 
@@ -363,7 +363,7 @@ A ticket profile date stored in Counterpoint can be used to identify a scheduled
 
 Once received in Klaviyo, a flow can be triggered to send a delivery reminder email or SMS message to the customer.
 
-For details about the **standard event metrics** that are automatically synced to Klaviyo, refer to **[INSERT METRICS SECTION - TBD]**.
+For details about the **standard event metrics** that are automatically synced to Klaviyo, refer to [Metrics and Transactional Email Guide](./METRICS-AND-TRANSACTIONAL-EMAIL-GUIDE.md).
 
 ![Klaviyo Custom Events](./images/counterpoint-klaviyo-custom-events.png)
 
