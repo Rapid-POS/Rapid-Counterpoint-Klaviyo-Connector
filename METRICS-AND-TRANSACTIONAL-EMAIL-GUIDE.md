@@ -10,7 +10,7 @@
 
 This document provides detailed guidance on **Klaviyo metrics**, **dimensions**, and **transactional email usage** when using the Rapid POS Klaviyo Connector.
 
-It is intended to be a **companion document** to the primary *Rapid POS Klaviyo Connector README*. While the main README focuses on connector configuration, sync behavior, and operational controls, this guide explains:
+It is intended to be a **companion document** to the primary [Rapid POS Klaviyo Connector README](./README.md). While the main README focuses on connector configuration, sync behavior, and operational controls, this guide explains:
 
 - How transactional data from Counterpoint is represented in Klaviyo  
 - How metrics and dimensions work  
