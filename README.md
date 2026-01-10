@@ -198,7 +198,7 @@ Defines which Counterpoint Customer Record phone number field is used to populat
 - Supported options:
   - **Mobile Phone 1**
   - **Phone 1**
-- If the selected phone field does not meet the *exactly 10 numeric digits** requirement, the phone number will not be sent to Klaviyo
+- If the selected phone field does not meet the _exactly 10 numeric digits_ requirement, the phone number will not be sent to Klaviyo
 - This setting controls **which phone number is populated**, not SMS subscription consent.
 
 ### SMS Country Code
