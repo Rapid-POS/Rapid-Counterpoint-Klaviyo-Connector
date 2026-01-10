@@ -9,10 +9,6 @@ The Rapid Klaviyo Connector automatically syncs customer and sales data from Cou
 
 If configured, **Phone 1** or **Mobile Phone 1** can be included to support Klaviyo SMS marketing.
 
-The following fields are **not used** by the Klaviyo connector:
-- Email Address 2  
-- Mobile Phone 2  
-
 ---
 
 ## Minimum System Requirements
