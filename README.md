@@ -528,7 +528,7 @@ Marking messages as read stops the pop-up notifications but does **not** delete 
 
 ---
 
-## SECTION 12: Klaviyo Connector Sync Process
+## SECTION 12: Klaviyo Connector Execution and Sync Timing
 
 The Klaviyo Connector operates as a **Windows Service**, automatically syncing customer profiles and transactional documents between Counterpoint and Klaviyo.
 
@@ -547,9 +547,13 @@ The connector processes different types of data on separate schedules:
 
 If a document being synced contains a **new customer**, the customer profile is created in Klaviyo **immediately as part of the document sync**. The connector does not wait for the next 15-minute customer profile sync cycle.
 
+For details on how customer profile changes are evaluated and synchronized between Klaviyo and Counterpoint, refer to **SECTION 13: Customer Profile Sync Logic and Workflow**.
+
 ---
 
-## SECTION 13: Customer Profile Syncing Workflow
+## SECTION 13: Customer Profile Sync Logic and Workflow
+
+This section describes the logical order and decision-making process used by the connector after a sync cycle begins.
 
 The Klaviyo Connector processes customer profile updates in a defined sequence to ensure that the most recent and authoritative data is preserved between Counterpoint and Klaviyo.
 
