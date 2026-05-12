@@ -1,5 +1,5 @@
 # Rapid POS Klaviyo Connector v3.04.00 Release Notes
-Release Date: May 13th, 2026
+_Release Date: May 13th, 2026_
 
 
 ## New Functionality
