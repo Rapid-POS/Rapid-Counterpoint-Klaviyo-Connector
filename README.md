@@ -528,6 +528,7 @@ This is especially useful in scenarios such as:
 - High-volume alert conditions that have already been reviewed or acknowledged
 
 Marking messages as read stops the pop-up notifications but does **not** delete the messages. All connector messages remain accessible in Counterpoint and can be reviewed at any time.
+### Mail Group ID Support for Counterpoint Messaging Accounts
 
 ---
 
