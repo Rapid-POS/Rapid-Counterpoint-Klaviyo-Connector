@@ -1,4 +1,4 @@
-# Rapid POS Klaviyo Connector - Version 3.3
+# Rapid POS Klaviyo Connector - Version 3.04.00
 Updated 1/9/2026
 
 ---
