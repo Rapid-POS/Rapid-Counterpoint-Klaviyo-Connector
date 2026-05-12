@@ -33,16 +33,25 @@ This update improves overall reliability and message tracking within the Klaviyo
 
 ## Bug Fixes and Performance Enhancements
 
-### Allow Multiple Customers with the Same Email Address
-Removed validation preventing multiple customers from sharing the same email address.
+### Improved Handling of Duplicate Customer Email Addresses
 
-Previously, customer inserts or updates could fail when another customer record already existed with the same email address. The connector now allows multiple customer records to use the same email address when required by the business workflow.
+In this release we updated customer validation logic to prevent order processing interruptions when multiple CounterPoint customers share the same email address.
+
+Previously, customer inserts, updates, or order processing would throw an error message when another customer record already existed in Counterpoint with the same email address and was already associated with a Klaviyo customer profile. In order to proceed the email address would have to be removed or updated to a different email address not already used by another contact in Counterpoint.
+
+The validation has now been adjusted to allow the customer and order workflow to continue successfully within CounterPoint, even when duplicate email addresses exist across multiple customer records.
+
+#### Important Behavior Notes
+
+- Multiple CounterPoint customers may now share the same email address without blocking customer updates or order entry.
+- Duplicate email customers are still **not uploaded or synced to Klaviyo**.
+- Only the original customer associated with the email address will continue syncing with Klaviyo.
+- This change prevents unnecessary workflow interruptions while maintaining Klaviyo profile integrity and duplicate email protection.
 
 This improvement provides greater flexibility for:
 - Shared family email accounts
 - Business accounts with multiple associated contacts
 - Multi-customer relationships using a common email address
-
 ### Prevent Last Customer Sync Date Updates on Failed Downloads
 Updated customer profile download logic to prevent the `LST_CUST_SYNC_DT` field from being updated when an error occurs during customer profile synchronization.
 
