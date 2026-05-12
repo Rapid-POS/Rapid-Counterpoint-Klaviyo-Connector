@@ -92,7 +92,7 @@ Please contact Rapid for a quote if you are interested in a customized add-on-th
 
 The Klaviyo Connector includes a user interface for managing configuration options that control how the connector interacts with Klaviyo and Counterpoint.  
 
-![Klaviyo Configuration](./images/counterpoint-klaviyo-configuration.png)
+<img width="843" height="1016" alt="image" src="https://github.com/user-attachments/assets/47c202d5-b9e2-4769-99c7-66b08ca5efe4" />
 
 For clients who use **multiple Klaviyo accounts**, a separate configuration record will exist for each account.
 
@@ -224,6 +224,12 @@ Controls whether Klaviyo profiles can create new Counterpoint customer records.
 - Importing customers can result in **duplicate records** if email addresses were not previously captured in Counterpoint.
 - Duplicates can be merged manually, but this can be especially problematic for clients using **DL Scan** or **3310 forms**.
 - Consult with your **Business Analyst**, **vCIO**, or **Project Manager** before enabling this feature.
+
+### Capitalize Customer Fields Configuration Setting
+This configuration setting to support automatic capitalization of customer fields during customer synchronization and processing.
+
+When enabled, customer information such as names and address-related fields can be automatically converted to uppercase formatting to maintain consistency between CounterPoint and Klaviyo customer records.
+
 
 ### Ticket History Start and End Dates
 - Enables syncing of previously posted (historical) tickets to Klaviyo.
