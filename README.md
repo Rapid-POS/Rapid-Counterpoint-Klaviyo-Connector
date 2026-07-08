@@ -10,14 +10,11 @@ The Rapid Klaviyo Connector automatically syncs customer and sales data from Cou
 If configured, **Phone 1** or **Mobile Phone 1** can be included to support Klaviyo SMS marketing.
 
 ---
-## System Requirements
-
-| Requirement | Minimum Version |
-|-------------|----------------|
-| Counterpoint | 8.5.6.2 |
-| SQL Server | 2016 |
-| Windows Server | 2016 |
-| PowerShell | 5.1 |
+## Minimum System Requirements:
+- Minimum Counterpoint version: **8.5.6.2**  
+- Minimum SQL Server version: **2016**  
+- Minimum Supported Operating System version: **Windows Server 2016** or **Windows 11 Pro** 
+- Minimum PowerShell version: **5.1**
 
 > [!WARNING]
 > Your environment must meet our [CI/CD Connector Requirements](https://github.com/Rapid-POS/Miscellaneous-Documents/blob/main/CICD-Connector-Requirements.md) (server access, firewall rules, etc.) before any install or upgrade. Troubleshooting, manual installs, or follow-up work resulting from unmet requirements will be billed at standard T&M rates.
