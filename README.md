@@ -1,5 +1,5 @@
 # Rapid POS Klaviyo Connector - Version 3.04.00
-Updated 5/12/2026
+Updated September 16th 2026
 
 ---
 
@@ -12,7 +12,7 @@ If configured, **Phone 1** or **Mobile Phone 1** can be included to support Klav
 ---
 ## Minimum System Requirements:
 - Minimum Counterpoint version: **8.5.6.2**  
-- Minimum SQL Server version: **2016**  
+- Minimum SQL Server version: **2017**  
 - Minimum Supported Operating System version: **Windows Server 2016** or **Windows 11 Pro** 
 - Minimum PowerShell version: **5.1**
 
